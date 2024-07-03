@@ -1,0 +1,163 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* Basic styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner styling */
+#banner {
+    background-image: url('path/to/banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 24px;
+}
+
+/* Quotes styling */
+#quotes {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#quotes blockquote {
+    font-style: italic;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Videos list styling */
+#videos {
+    padding: 50px 0;
+}
+
+#videos .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#videos .video {
+    width: 48%;
+}
+
+#videos h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Membership styling */
+#membership {
+    background-color: #e9e9e9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#membership .plans {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#membership .plan {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+#membership .plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* FAQ styling */
+#faq {
+    padding: 50px 0;
+}
+
+#faq .faq-item {
+    margin-bottom: 20px;
+}
+
+#faq .question {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#faq .answer {
+    margin: 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
